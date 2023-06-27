@@ -13,7 +13,7 @@ def list_division(my_list_1, my_list_2, list_length):
     """
     result = []
     try:
-        for i in range(list_length):
+        for i in range(0, list_length):
             try:
                 a = my_list_1[i]
                 b = my_list_2[i]
