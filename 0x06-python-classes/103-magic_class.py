@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import math
 """
 The MagicClass that does exactly the same as the Python bytecode provided
 """
+
+
+import math
 
 
 class MagicClass:
