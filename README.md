@@ -1,1 +1,1 @@
-This is the repository for high level programming languages
+This project is about Python - Almost a circle
