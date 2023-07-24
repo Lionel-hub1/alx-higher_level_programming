@@ -6,19 +6,19 @@ import csv
 
 
 class Base:
-    """ Base class 
-    
+    """ Base class
+
     Attributes:
-		__nb_objects (int): number of objects
+    __nb_objects (int): number of objects
     """
     __nb_objects = 0
 
     def __init__(self, id=None):
         """
         Init method
-        
+
         Args:
-			id (int): id of the object
+        id (int): id of the object
         """
         if id is not None:
             self.id = id
