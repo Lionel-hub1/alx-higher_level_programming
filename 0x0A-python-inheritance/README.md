@@ -1,0 +1,1 @@
+This directory contain codes for the <b>0x0A-python-inheritance</b> project
