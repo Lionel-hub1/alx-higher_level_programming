@@ -103,4 +103,12 @@ def print_board(board):
 
 
 if __name__ == "__main__":
-    nqueens(int(sys.argv[1]))
+    if len(sys.argv) != 2:
+        print("Usage: nqueens N")
+        sys.exit(1)
+
+    try:
+        nqueens(int(sys.argv[1]))
+    except ValueError:
+        print("N must be an integer")
+        sys.exit(1)
