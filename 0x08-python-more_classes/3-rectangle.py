@@ -77,4 +77,7 @@ class Rectangle:
 
     def __repr__(self):
         """Returns a string representation of the rectangle."""
-        return "Rectangle({}, {})".format(self.__width, self.__height)
+        module_name = self.__class__.__module__
+        class_name = self.__class__.__name__
+        address = hex(id(self))
+        return f"<{module_name}.{class_name} object at {address}>"
