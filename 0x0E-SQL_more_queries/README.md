@@ -1,0 +1,1 @@
+This project directory contain files of <b>0x0E. SQL - More queries</b>
