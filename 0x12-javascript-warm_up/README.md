@@ -1,0 +1,1 @@
+This directory contain codes for the <b>0x12. JavaScript - Warm up</b> project which covers the basics of the Javascript programming langauage like variables, Datatypes, Operators, Operator Precedence, Controlling Program Flow, Functions, Objects and Arrays, Intrinsic Objects, Module patterns, var, let and const
