@@ -11,4 +11,4 @@ const dest = process.argv[4];
 const content1 = fs.readFileSync(file1).toString();
 const content2 = fs.readFileSync(file2).toString();
 
-fs.writeFileSync(dest, content1 + '\n' + content2);
+fs.writeFileSync(dest, content1 + content2);
