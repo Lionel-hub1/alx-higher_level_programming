@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /**
- * This script is a class Rectangle that defines a rectangle
- * And adds a function of print
+ * Rectangle class with constructor(width, height) and print() methods.
+ * rotate() and double() methods.
  */
 
 class Rectangle {
@@ -24,6 +24,15 @@ class Rectangle {
     for (let i = 0; i < this.height; i++) {
       console.log(row);
     }
+  }
+
+  rotate () {
+    [this.width, this.height] = [this.height, this.width];
+  }
+
+  double () {
+    this.width *= 2;
+    this.height *= 2;
   }
 }
 
