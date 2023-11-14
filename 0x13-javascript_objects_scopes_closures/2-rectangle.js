@@ -10,7 +10,7 @@ class Rectangle {
       this.height = h;
     } else {
       // Otherwise, define an empty object
-      return {};
+      Object.create(null);
     }
   }
 }
