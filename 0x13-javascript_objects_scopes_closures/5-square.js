@@ -8,7 +8,7 @@ const Rectangle = require('./4-rectangle');
 
 // Definition of the Square class that inherits from Rectangle
 class Square extends Rectangle {
-  constructor(size) {
+  constructor (size) {
     // Call the constructor of the parent class (Rectangle) with the size argument for both width and height
     super(size, size);
   }
