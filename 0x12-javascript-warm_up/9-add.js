@@ -3,7 +3,7 @@
  * This script prints the addition of 2 integers
  */
 
-function add(a, b) {
+function add (a, b) {
   const sum = a + b;
   console.log(sum);
 }
